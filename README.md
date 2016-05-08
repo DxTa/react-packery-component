@@ -1,19 +1,17 @@
 React Packery Component
 =======================
 
-[![npm version](https://badge.fury.io/js/react-packery-component.svg)](http://badge.fury.io/js/react-packery-component)
-
 #### Introduction:
+Updated from eiriklv's version
 A [React.js](https://facebook.github.io/react/) [Packery](http://packery.metafizzy.co/) component. (Also available as a [mixin](https://github.com/eiriklv/react-packery-mixin) if needed)
 
 #### Support
 React >= 0.14.x
 
 #### Live demo:
-[hearsay.me](http://www.hearsay.me)
 
 #### Installation:
-` $ npm install react-packery-component --save`
+` $ npm install https://github.com/DxTa/react-packery-component/tarball/master --save`
 
 #### Usage:
 
@@ -48,6 +46,7 @@ var Gallery = React.createClass({
                 elementType={'ul'} // default 'div'
                 options={packeryOptions} // default {}
                 disableImagesLoaded={false} // default false
+                disableDraggable={false} // default false
             >
                 {childElements}
             </Packery>
